@@ -8,7 +8,7 @@
     <remote
         name="connersa"
         alias="fork"
-        fetch="https://github.com/connersa"
+        fetch="https://github.com/connersaeli"
     />
     <default
         remote="ubccr"
