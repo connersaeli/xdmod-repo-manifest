@@ -5,6 +5,11 @@
         alias="upstream"
         fetch="https://github.com/ubccr"
     />
+    <remote
+        name="connersaeli"
+        alias="fork"
+        fetch="https://github.com/connersaeli"
+    />
     <default
         remote="ubccr"
         revision="xdmod11.0"
@@ -18,6 +23,8 @@
     <project
         name="xdmod"
         groups="xdmod"
+        remote="connersaeli"
+        revision="conner-user-manual"
     />
 
     <!--
