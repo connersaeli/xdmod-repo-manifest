@@ -9,6 +9,11 @@
         name="connersaeli"
         alias="fork"
         fetch="https://github.com/connersaeli"
+        />
+    <remote
+        name="rory"
+        alias="rory"
+        fetch="https://github.com/rorymcclenahan"
     />
     <default
         remote="ubccr"
@@ -23,8 +28,8 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="connersaeli"
-        revision="conner-user-manual"
+        remote="rory"
+        revision="user-manual"
     />
 
     <!--
