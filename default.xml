@@ -5,6 +5,10 @@
         alias="upstream"
         fetch="https://github.com/ubccr"
     />
+    <default
+        remote="ubccr"
+        revision="xdmod11.0"
+    />
     <remote
         name="connersaeli"
         alias="fork"
@@ -14,10 +18,6 @@
         name="rory"
         alias="rory"
         fetch="https://github.com/rorymcclenahan"
-    />
-    <default
-        remote="ubccr"
-        revision="xdmod11.0"
     />
 
     <!--
