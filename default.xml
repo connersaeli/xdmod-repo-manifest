@@ -9,7 +9,7 @@
         name="connersaeli"
         alias="fork"
         fetch="https://github.com/connersaeli"
-        />
+    />
     <remote
         name="rory"
         alias="rory"
