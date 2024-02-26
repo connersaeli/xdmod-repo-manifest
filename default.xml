@@ -69,7 +69,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="fork"
+        remote="connersaeli"
         revision="user-manual"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
