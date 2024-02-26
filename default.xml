@@ -69,6 +69,8 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        remote="fork"
+        revision="user-manual"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
