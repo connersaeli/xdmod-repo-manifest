@@ -32,7 +32,7 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="joe"
+        remote="jpwhite4"
         revision="user_manual"
     />
 
