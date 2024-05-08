@@ -19,7 +19,11 @@
         alias="rory"
         fetch="https://github.com/rorymcclenahan"
     />
-
+    <remote
+        name="jpwhite4"
+        alias="joe"
+        fetch="https://github.com/jpwhite4"
+    />
     <!--
     Open XDMoD
 
@@ -28,8 +32,8 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="rory"
-        revision="user-manual"
+        remote="joe"
+        revision="user_manual"
     />
 
     <!--
