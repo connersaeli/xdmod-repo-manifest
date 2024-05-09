@@ -32,7 +32,7 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="connersa"
+        remote="connersaeli"
         revision="user-manual-allocations"
     />
 
