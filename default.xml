@@ -32,8 +32,8 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="jpwhite4"
-        revision="user_manual"
+        remote="connersa"
+        revision="user-manual-allocations"
     />
 
     <!--
@@ -73,8 +73,6 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="connersaeli"
-        revision="user-manual"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
