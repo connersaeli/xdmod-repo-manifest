@@ -5,6 +5,11 @@
         alias="upstream"
         fetch="https://github.com/ubccr"
     />
+    <remote
+        name="connersaeli"
+        alias="fork"
+        fetch="https://github.com/connersaeli"
+    />
     <default
         remote="ubccr"
         revision="xdmod11.0"
@@ -57,6 +62,8 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        remote="fork"
+        revision="alloc-comp-dashboard"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
