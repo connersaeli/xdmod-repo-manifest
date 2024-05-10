@@ -62,7 +62,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="fork"
+        remote="connersaeli"
         revision="alloc-comp-dashboard"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
