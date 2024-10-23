@@ -64,8 +64,6 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="connersaeli"
-        revision="jupyterhub"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
