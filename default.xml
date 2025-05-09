@@ -12,7 +12,7 @@
     />
     <default
         remote="ubccr"
-        revision="xdmod11.0"
+        revision="main"
     />
 
     <!--
@@ -64,6 +64,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
