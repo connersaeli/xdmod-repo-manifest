@@ -24,7 +24,7 @@
         name="xdmod"
         groups="xdmod"
         remote="connersaeli"
-        revision="jupyterhub"
+        revision="jupyterhub-main"
     />
 
     <!--
