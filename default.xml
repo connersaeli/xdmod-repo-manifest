@@ -3,11 +3,10 @@
     <remote
         name="ubccr"
         alias="upstream"
-        fetch="ssh://git@github.com/ubccr"
+        fetch="https://github.com/ubccr"
     />
     <default
         remote="ubccr"
-        revision="main"
     />
 
     <!--
@@ -18,6 +17,7 @@
     <project
         name="xdmod"
         groups="xdmod"
+        revision="refs/tags/v11.0.2-3"
     />
 
     <!--
@@ -27,30 +27,12 @@
     They will be installed by default.
     -->
     <project
-        name="xdmod-appkernels"
-        groups="appkernels"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
-    </project>
-    <project
         name="xdmod-supremm"
         groups="supremm"
+        revision="refs/tags/v11.0.1-1"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
-    <project
-        name="xdmod-ondemand"
-        groups="ondemand"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
-    </project>
-    <project
-        name="xdmod-introspection"
-        groups="introspection"
-    >
-        <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
-    </project>
-
     <!--
     Related Tools
 
@@ -60,11 +42,6 @@
     <project
         name="supremm"
         groups="notdefault,supremm,tools"
-        revision="master"
-    />
-    <project
-        name="akrr"
-        groups="notdefault,appkernels,tools"
         revision="master"
     />
 </manifest>
