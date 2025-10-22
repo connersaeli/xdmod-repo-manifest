@@ -21,8 +21,9 @@
     -->
     <project
         name="xdmod"
-        groups="xdmod"
-        revision="main"
+	groups="xdmod"
+	remote="connersaeli"
+	revision="innodb-dynamic-tables"
     />
 
     <!--
