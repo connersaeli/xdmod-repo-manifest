@@ -27,9 +27,9 @@
     -->
     <project
         name="xdmod"
-	groups="xdmod"
-	remote="conner"
-	revision="symfony_migration-DotEnvConfigMigration"
+        groups="xdmod"
+        remote="fork"
+        revision="symfony_migration-DotEnvConfigMigration"
     />
 
     <!--
