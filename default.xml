@@ -5,9 +5,19 @@
         alias="upstream"
         fetch="ssh://git@github.com/ubccr"
     />
+    <remote
+        name="conner"
+        alias="fork"
+        fetch="ssh://git@github.com/connersaeli"
+    />
+    <remote
+        name="ryanrath"
+        alias="ryanrath"
+        fetch="https://github.com/ryanrath"
+    />
     <default
         remote="ubccr"
-        revision="main"
+        revision="symfony_migration"
     />
 
     <!--
@@ -17,7 +27,9 @@
     -->
     <project
         name="xdmod"
-        groups="xdmod"
+	groups="xdmod"
+	remote="conner"
+	revision="symfony_migration-DotEnvConfigMigration"
     />
 
     <!--
@@ -49,6 +61,21 @@
         groups="introspection"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
+    </project>
+    <project
+        name="xdmod-xsede"
+        groups="xsede"
+        revision="symfony_changes"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
+    </project>
+    <project
+        name="xdmod-cloudbank"
+        groups="cloudbank"
+        remote="ryanrath"
+        revision="symfony_migration"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
 
     <!--
