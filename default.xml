@@ -7,7 +7,7 @@
     />
     <remote
         name="conner"
-        alias="fork"
+        alias="conner"
         fetch="ssh://git@github.com/connersaeli"
     />
     <remote
@@ -28,7 +28,7 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="fork"
+        remote="conner"
         revision="symfony_migration-DotEnvConfigMigration"
     />
 
