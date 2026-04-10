@@ -52,13 +52,15 @@
     </project>
     <project
         name="xdmod-ondemand"
-        groups="ondemand"
+	groups="ondemand"
+	revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
     <project
         name="xdmod-introspection"
-        groups="introspection"
+	groups="introspection"
+	revision="main"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/introspection" />
     </project>
