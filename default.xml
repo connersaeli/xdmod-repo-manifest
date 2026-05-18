@@ -29,7 +29,7 @@
         name="xdmod"
         groups="xdmod"
         remote="conner"
-        revision="symfony_migration-DotEnvConfigMigration"
+        revision="symfony_migration-Tokens"
     />
 
     <!--
