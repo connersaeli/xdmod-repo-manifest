@@ -45,8 +45,10 @@
         <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
     </project>
     <project
-        name="xdmod-supremm"
-        groups="supremm"
+	name="xdmod-supremm"
+	remote="conner"
+	groups="supremm"
+	revision="symfony_migration-Tokens"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
