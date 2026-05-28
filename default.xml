@@ -66,7 +66,8 @@
     </project>
     <project
         name="xdmod-xsede"
-        groups="xsede"
+	groups="xsede"
+	remote="conner"
         revision="symfony_migration-Tokens"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
