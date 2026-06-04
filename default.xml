@@ -41,6 +41,8 @@
     <project
         name="xdmod-appkernels"
         groups="appkernels"
+	remote="conner"
+	revision="symfony_migration-Tokens"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
     </project>
