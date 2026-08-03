@@ -11,6 +11,11 @@
         fetch="https://github.com/connersaeli"
     />
     <remote
+        name="jrimpel"
+        alias="justin"
+        fetch="https://github.com/jrimpel"
+    />
+    <remote
         name="github-ryanrath"
         alias="ryanrath"
         fetch="https://github.com/ryanrath"
@@ -28,8 +33,8 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="connersaeli"
-        revision="jupyterhub-main"
+        remote="jrimpel"
+        revision="Python_code_generation"
     />
 
     <!--
