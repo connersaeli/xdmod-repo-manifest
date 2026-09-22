@@ -6,7 +6,7 @@
         fetch="https://github.com/ubccr"
     />
     <remote
-        name="connersaeli"
+        name="conner"
         alias="fork"
         fetch="https://github.com/connersaeli"
     />
@@ -64,7 +64,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="fork"
+        remote="conner"
         revision="supremm-stampede3"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
