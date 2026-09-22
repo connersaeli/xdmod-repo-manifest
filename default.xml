@@ -50,6 +50,12 @@
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
     <project
+        name="xdmod-cloudbank"
+        groups="cloudbank"
+    >
+        <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank" />
+    </project>
+    <project
         name="xdmod-introspection"
         groups="introspection"
     >
