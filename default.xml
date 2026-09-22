@@ -64,7 +64,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="connersaeli"
+        remote="fork"
         revision="supremm-stampede3"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
