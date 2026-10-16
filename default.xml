@@ -71,7 +71,7 @@
     <project
         name="xdmod-xsede"
 	groups="xsede"
-	remote="conner"
+	remote="ubccr"
         revision="symfony_changes"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
