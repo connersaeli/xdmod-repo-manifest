@@ -28,8 +28,8 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="conner"
-        revision="symfony_migration-Tokens"
+        remote="ubccr"
+        revision="symfony_migration"
     />
 
     <!--
@@ -41,8 +41,8 @@
     <project
         name="xdmod-appkernels"
         groups="appkernels"
-	remote="conner"
-	revision="symfony_migration-Tokens"
+	remote="ubccr"
+	revision="symfony_migration"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/appkernels" />
     </project>
@@ -50,7 +50,7 @@
 	name="xdmod-supremm"
 	remote="conner"
 	groups="supremm"
-	revision="symfony_migration-Tokens"
+	revision="symfony_migration"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
@@ -72,7 +72,7 @@
         name="xdmod-xsede"
 	groups="xsede"
 	remote="conner"
-        revision="symfony_migration-Tokens"
+        revision="symfony_migration"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
